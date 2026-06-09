@@ -38,34 +38,6 @@ int main()
     printf("Positivos: %d\n", plus);
     printf("Negativos: %d\n", minus);
 
-    /**#include <stdio.h>
-
-int main() {
-    int original[] = {0, 1, 1, 1, 0, 0, 1, 0};
-    int apenasZeros[8]; 
-    int j = 0;
-
-    // Filtra apenas os zeros
-    for (int i = 0; i < 8; i++) {
-        if (original[i] == 0) {
-            apenasZeros[j] = original[i];
-            j++;
-        }
-    }
-
-    // Formata a saída: apenasZeros[0, 0, 0, 0]
-    printf("apenasZeros[");
-    for (int i = 0; i < j; i++) {
-        printf("%d", apenasZeros[i]);
-        if (i < j - 1) {
-            printf(", "); // Adiciona a vírgula apenas entre os números
-        }
-    }
-    printf("]\n");
-
-    return 0;
-}
- */
-    
+return 0;
 
 }
